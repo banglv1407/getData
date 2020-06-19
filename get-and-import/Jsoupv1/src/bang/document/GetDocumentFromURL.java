@@ -20,7 +20,7 @@ import org.jsoup.select.Elements;
 public class GetDocumentFromURL   {
 	public static void main(String[] args) throws IOException {
         try{
-			int chunk=3;
+			int chunk=1;
 			int multiple = 50;
         	for(int k=multiple*chunk; k<2000; k+=multiple) {
 				int beginPage = (chunk-1) * multiple;
